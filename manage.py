@@ -7,6 +7,7 @@ import dotenv
 
 def main():
     """Run administrative tasks."""
+    # this Mail conf to hide the details of mailings
     dotenv.read_dotenv()
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'JWTCompleteAuthAPI.settings')
     try:
